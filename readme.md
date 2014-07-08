@@ -20,6 +20,8 @@ Currently, the following commands are available:
 * volume down fifty
 * volume up max
 * volume down max
+* forward 5 secs
+* rewind 5 secs
 
 before saying a command, you should say "winamp listen", and after you've completed saying a command "winamp ignore".
 

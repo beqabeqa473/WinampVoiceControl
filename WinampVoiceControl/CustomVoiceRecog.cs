@@ -132,6 +132,10 @@ public class CustomVoiceRecog
                     volumeControl(100, WA_VOLUMEUP);
                 else if (text == "volume down max")
                     volumeControl(100, WA_VOLUMEDOWN);
+                else if (text == "forward")
+                    SendMessage.SendMessageA(winampHandle, WM_COMMAND, WINAMP_FFWD5S, WA_NOTHING);
+                else if (text == "rewind")
+                    SendMessage.SendMessageA(winampHandle, WM_COMMAND, WINAMP_REW5S, WA_NOTHING);
             }
 
             // Control

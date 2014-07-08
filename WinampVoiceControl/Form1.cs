@@ -48,6 +48,8 @@ namespace WinampVoiceControl
             voice.AddCommandWord("volume down ten");
             voice.AddCommandWord("volume down fifty");
             voice.AddCommandWord("volume down max");
+            voice.AddCommandWord("forward");
+            voice.AddCommandWord("rewind");
             voice.AddCommandWord("winamp listen");
             voice.AddCommandWord("winamp ignore");
             voice.InitVoiceHandler();
