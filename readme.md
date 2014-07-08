@@ -26,4 +26,4 @@ before saying a command, you should say "winamp listen", and after you've comple
 
 ## Bugs ##
 
-Please report Bugs at: beqaprogger at gmail dot com
+Please report Bugs at: [github issues page](https://github.com/beqabeqa473/WinampVoiceControl/issues "github issues page")
